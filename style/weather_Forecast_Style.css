@@ -1,0 +1,39 @@
+#weather_Forecast_Response{
+    background-color: #89CFF3;
+}
+  .teal{
+    color: #ADEED9;
+  }
+  .border-sky{
+    border-color: #AAD7D9;
+  }
+  .bg-sky{
+    background-color: #A0DEFF;
+  }
+  .bg-important{
+    background-color: #D25959;
+  }
+  table,td{
+    border: 1px #AAD7D9 solid;
+  }
+
+  /* #weather_Forecast_Title{
+    position: relative;
+    bottom: 720px;
+}
+#searchBarContainer{
+    position: relative;{
+    
+ }
+    bottom: 720px;100pxauto
+} */
+ /* body{
+    width:1280px ;
+    overflow-x: hidden;Ơdz
+ } */
+
+#space_Picture_Library_Respond,#NASA_Rover_List_Of_Details{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 5px 5px; 
+}

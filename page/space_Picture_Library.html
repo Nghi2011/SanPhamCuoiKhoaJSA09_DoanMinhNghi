@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư viện ảnh không gian</title>
+    <link rel="stylesheet" href="../style/Space_Picture_Library.css">
+</head>
+<body>
+<div id="header">
+  <nav class="navbar navbar-expand-lg bg-primary-subtle " >
+  <div class="container-fluid bg-">
+    <span class="navbar-brand mb-0 h1 fs-4">Uniexplo</span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active fs-4" aria-current="page" href="landing_Page.html">Trang chủ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4" href="weather_Forecast.html">Dự báo thời tiết</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4" href="">Kho dữ liệu ảnh không gian vũ trụ</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="login.html">Đăng nhập</a></li>
+            <li><a class="dropdown-item" href="sign_Up.html">Đăng ký</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div class="container-fluid" id="websiteJumbotron" style="background-image: url(../img/R.jfif);background-size: cover;">
+    <!-- </div> style="background-image: url(../img/JMgnt9SU8qDLyXuk8CWvKf-970-80.jpg.webp);background-size: cover;"cảu chúng tachúng tachúng tôi-->Được xây dựng dựa trên
+     <div id="website_Title" class="container">
+         <h1 class="display-1 text-center border-start border-end border-light bg-space-blue p-3 rounded-top" >Khám phá vẻ đẹp của không gian trong và ngoài Trái Đất</h1>
+        <p class="lead text-decoration-underline fs-4 text-center text-success-emphasis fw-medium border-start border-bottom border-end border-success-subtle bg-space-green">Chào mừng bạn đã đến với thư viện ảnh của website này, hãy cùng tìm hiểu về những bức tranh sống động về hành tinh của chúng mình nào!</p>
+     </div>
+    
+     <!-- <img src="../img/R.jfif" alt="">3 style="width: 300px;position: relative;left: 100px;"-->
+  </div>
+</div>
+<div id="body">
+  <div id="websiteIntroduction" class="container-fluid mt-3">
+        <p class="lead text-center standard_FontSize fs-1 border border-info bg-info-subtle ">Về trang web này </p>
+        <button class="btn-info bg-info-subtle border rounded" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" style="width: 100%;">Về trang web này</button>
+        <div class="offcanvas offcanvas-top bg-primary-subtle" data-bs-theme="dark" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel" style="height: 200%;">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasTopLabel">Về trang web này</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div id="card_Container" class="container-fluid">
+              <div class="card" style="width: 100rem;justify-self: center;">
+                  <img src="../img/Introduction image.png" class="card-img-top" alt="...">
+                  <div class="card-body " >
+                      <p class="card-text fs-4">-Hình thành nên từ ý tưởng khám phá vũ trụ, trang web này được xấy dựng để lưu trữ kho tàng hình ảnh của NASA </p>
+                      <p class="card-text fs-4">-Kho lưu trữ hình ảnh không gian vũ trụ có mục đích đưa người dùng có cái nhìn mới mẻ hơn về thế giới bên ngoài Trái Đất và đáp ứng được nhu cầu từ phía người dùng, những người thích khám phá vũ trụ </p>
+                      <p class="card-text fs-4">-Trang web này có thể chứa đến hàng nghìn hình ảnh vũ trụ của NASA và nhiều công cụ hỗ trợ khác hỗ trợ bạn trong việc sử dụng website</p>
+                      <p class="card-text fs-4">-Bạn, hay là một người dùng trong trang web, có thể khám phá bất cứ thứ gì tại đây cũng như chia sẻ cho những người yêu thích vũ trụ không gian khác, xem và tải hoặc sử dụng dụng hình ảnh từ trang web của chúng tôi thông qua </p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+  <div id="space_Image_Library">
+    <div id="library_Title">
+      <p class="lead fs-1 border-start border-end text-center text-space-green bg-space-sage">Thư viện ảnh không gian vũ trụ</p>
+    </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label fs-1 border bg-important">Hãy chọn thể loại ảnh mà bạn muốn tìm:</label>
+        <select class="form-select" id="pictureTypeSelect">
+          <option selected value="...">Chọn thể loại ảnh</option>
+          <option value="APOD_Pictures">APOD</option>
+          <option value="Mars_Rovers_Photos">Ảnh từ rover trinh thám Sao Hỏa (Mars Rover Photos)</option>
+        <!--<option value="3">Three</option> Images<div id="formGroup" class=""><d id="formGroup" class=""-Image></d<div></div><div></div>iv></divStart>>dc-none5px</div>;position: relative;left: 720pxpx;-->
+      </select>
+    </div>
+    <button type="button" class="btn button-info border-bottom border-top border-success" style="width: 100%;height: 100%" id="btnSubmit">Chọn thư viện ảnh</button>
+    <div id="formGroup" class="d-none">
+      <div class="mb-3 border-start border-end border-primary bg-primary-subtle p-3 container  mt-3">
+        <label  class="form-label lead text-center">Chọn ngày bắt đầu và ngày kết thúc</label>
+        <label for="chooseStartDate">Chọn ngày bắt đầu:</label>
+        <input type="date" id="chooseStartDate" class="form-control m-3" >
+        <label for="chooseEndDate">Chọn ngày kết thúc:</label>
+        <input type="date" id="chooseEndDate" class="form-control m-3" >
+      </div>
+      <!-- <p class="lead text-center">--Hoặc--</p>
+      <div class="mb-3 border-start border-end border-primary bg-primary-subtle p-3 container  mt-3">
+        <label  class="form-label lead text-center">Chọn một ngày nhất định</label>
+        <input type="date" id="chooseDate" class="form-control m-3" >
+      </div> -->
+      <button type="button" class="btn button-info border border-info" style="width: 100%;" id="dateSubmit" >Gửi</button>
+    </div>
+    <div id="formGroup2" class="d-none mt-3 bg-success-subtle ">
+      <div class="mb-3 container">
+      <select class="form-select form-select-lg mb-3 border-start border-end border-success " id="roverSelect" aria-label="Large select example">
+      <option selected value="...">Chọn rover mà bạn muốn truy xuất hình ảnh</option>
+      <option value="curiosity">Curiosity</option>
+      <option value="opportunity">Opportunity</option>
+      <option value="spirit">Spirit</option>
+    </select>
+  <button type="button" class="btn button-info border border-info" style="width: 100%;" id="btnSubmit2" >Gửi</button>
+    </div>
+    <div id="queryGetForm" class="d-none container">
+      <label for="roverCameraSelect">Hãy chọn góc quay camera của rover</label>
+      <select class="form-select" aria-label="Default select example" id="roverCameraSelect">
+        <option selected value="...">Chọn góc quay camera của rover</option>
+        <option value="all">Tất cả</option>
+        <option value="fhaz">Front Hazard Avoidance Camera</option>
+        <option value="rhaz">Rear Hazard Avoidance Camera</option>
+        <option value="mast">Mast Camera</option>
+        <option value="chemcam">Chemistry and Camera Complex</option>
+        <option value="mahli">Mars Hand Lens Imager</option>
+        <option value="mardi">Mars Descent Imager</option>
+        <option value="navcam">Navigation Camera</option>
+        <option value="pancam">Panoramic Camera</option>
+        <option value="minites">Miniature Thermal Emission Spectrometer (Mini-TES)</option>
+      </select>
+      <label for="customRange4" class="form-label">Chọn số lượng hình ảnh muốn nhận (tối đa 1000 bức ảnh được tìm thấy trùng với tiêu chí, có thể ít hơn ý muốn)</label>
+      <input type="range" class="form-range" min="0" max="1000" value="50" id="numberOfPicture">
+      <output for="customRange4" id="showRange" aria-hidden="true" class="text-center"></output>
+      <button type="button" class="btn button-info border border-info" style="width: 100%;" id="btnSubmit3" >Gửi</button>
+    </div>
+    </div>
+    <div id="space_Picture_Library_Respond" style="display: grid;grid-template-columns: auto auto auto auto auto;">
+      
+    </div>
+    <div id="NASA_Rover_List_Of_Details" style="display: grid;grid-template-columns: auto auto auto;grid-gap:10px;justify-content: center;">
+  </div>
+  </div>
+</div>
+</body>
+</html>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="../js/space_Picture_Library.js"></script>

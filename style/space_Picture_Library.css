@@ -1,0 +1,32 @@
+#websiteJumbotron{
+    height: 1000px;
+    /* width: 3000px;max-
+    height: ; */
+}
+.bg-space-blue{
+    background-color: #63C8FF;
+}
+.bg-space-green{
+    background-color: #1DCD9F;
+}
+.bg-space-blue{
+    background-color: #3ABEF9;
+}
+.bg-space-sage{
+    background-color: #AEC8A4;
+}
+.text-space-green{
+    color: #1DCD9F;
+}
+.teal{
+    color: #ADEED9;
+  }
+  .border-sky{
+    border-color: #AAD7D9;
+  }
+  .bg-sky{
+    background-color: #A0DEFF;
+  }
+  .bg-important{
+    background-color: #D25959;
+  }

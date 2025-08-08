@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    
+</head>
+<style>
+  #NASA_Rover_List_Of_Details{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* grid-template-rows: auto auto; APOD_Picture_Library*/
+  }
+</style>
+<body>
+  <form action="">
+    <div class="mb-3 container">
+      <select class="form-select form-select-lg mb-3" id="roverSelect" aria-label="Large select example">
+      <option selected value="...">Chọn rover mà bạn muốn truy xuất hình ảnh</option>
+      <option value="curiosity">Curiosity</option>
+      <option value="opportunity">Opportunity</option>
+      <option value="spirit">Spirit</option>
+    </select>
+  <button type="button" class="btn button-info border border-info" style="width: 100%;" id="btnSubmit2" >Gửi</button>
+    </div>
+    <div id="queryGetForm" class="d-none container">
+      <label for="roverCameraSelect">Hãy chọn góc quay camera của rover</label>
+      <select class="form-select" aria-label="Default select example" id="roverCameraSelect">
+        <option selected value="...">Chọn góc quay camera của rover</option>
+        <option value="fhaz">Front Hazard Avoidance Camera</option>
+        <option value="rhaz">Rear Hazard Avoidance Camera</option>
+        <option value="mast">Mast Camera</option>
+        <option value="chemcam">Chemistry and Camera Complex</option>
+        <option value="mahli">Mars Hand Lens Imager</option>
+        <option value="mardi">Mars Descent Imager</option>
+        <option value="navcam">Navigation Camera</option>
+        <option value="pancam">Panoramic Camera</option>
+        <option value="minites">Miniature Thermal Emission Spectrometer (Mini-TES)</option>
+      </select>
+      <label for="customRange4" class="form-label">Chọn số lượng hình ảnh muốn nhận (tối đa 1000 bức ảnh được tìm thấy trùng với tiêu chí, có thể ít hơn ý muốn)</label>
+      <input type="range" class="form-range" min="0" max="1000" value="50" id="numberOfPicture">
+      <output for="customRange4" id="showRange" aria-hidden="true" class="text-center"></output>
+      <button type="button" class="btn button-info border border-info" style="width: 100%;" id="btnSubmit2" >Gửi</button>
+    </div>
+  </form>
+  <button ></button>
+  
+    <!-- <h2 id="NASA_Rover_Earth_Date"></h2>
+    <h2 id="NASA_Rover_Details"></h2>
+        <ol>
+            <li id="NASA_Rover_Details_Name"></li>
+            <li id="NASA_Rover_Details_Camera"></li>
+            <li id="NASA_Rover_Details_Launch_Date"></li>
+            <li id="NASA_Rover_Details_Landing_Date"></li>
+            <li id="NASA_Rover_Details_Status"></li>
+        </ol>
+    <h2></h2></div>
+    <img src="" alt="Sorry, no image is available for your search" id="NASA_Rover_Captured_Image"> -->
+  <!-- <div id="APOD_Picture_Library"> -->
+    
+</body>
+<script>
+    
+</script>
+</html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="Test.js"></script>

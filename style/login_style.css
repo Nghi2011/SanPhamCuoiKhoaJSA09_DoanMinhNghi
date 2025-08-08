@@ -1,0 +1,49 @@
+body{
+    overflow-y: hidden;
+}
+form{
+    display: grid;
+    gap: 10px;
+}
+.login_Form{
+    position: relative;
+    bottom: 1000px;
+    padding: 30px;
+    justify-self: center;
+    /* background:#0E2954 ; */
+    width: 400px;
+    height: 300px;
+    border: 4px #1F7D53 solid ;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+}
+body{
+        background: url(../img/);
+        background-size: cover;
+    }
+#email_Text_Container{
+    width: 349px;
+}
+.container{
+    margin-top:-20px;
+}
+label{
+    color: #EEEEEE;
+    border: 2px #433878 solid;
+    border-radius: 10px
+}
+.raleway-Font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
+#login_Title{
+    padding: 10px;
+    position: relative;
+    bottom: 1070px;
+    border: 1px #ADDDD0 solid;
+    border-radius: 10px;
+    margin-bottom: 22px;
+}
+/* <uniquifier> ffF <weight>Ssign_Upsign_Up#9EC6F3*/

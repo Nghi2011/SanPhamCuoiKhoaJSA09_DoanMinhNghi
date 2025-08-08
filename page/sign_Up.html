@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../style/sign_Up_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+</head>
+<!-- <style>
+    TênEmailMật khẩuBirthdateEmailexampleFormControlInput1exampleFormControlInput1name@example.comemailid=""2../img/07ZLSQ2-nasa-wallpaperstextclass (1)3absolute.style="width: 200px;"<is class=login_style"1fa-solid;right fa-shuttle-space"S>Ll SSt4360sign_Up_style.cssOpen this select menu       </is>fa-spin fa-spin-reverse<i class="fa-sharp-duotone fa-thin fa-shuttle-space fa-spin fa-spin-reverse" ></i>style="--fa-primary-color: #0a0000; --fa-primary-opacity: 1; --fa-secondary-color: #e9e2e2; --fa-secondary-opacity: 1;"jpg../img/JMgnt9SU8qDLyXuk8CWvKf-970-80.jpg.webp../img/vinY;font-family: Tahoma;ISyBT-nasa-desktop-backgrounds.jpgSign up
+</style> -->
+<body>
+    <div id="alertContainer"></div>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="../img/NASA_Space_images/Curiosity-Selfie-Hutton-Drill-Site-Crop-scaled.webp" class="d-block w-100" width="1920px" height="1080" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="../img/NASA_Space_images/nasa-earth-from-space-z84qztuwyt6v0anb.jpg" class="d-block w-100" alt="..." width="1920px" height="1080">
+            </div>
+            <div class="carousel-item">
+            <img src="../img/NASA_Space_images/vYISyBT-nasa-desktop-backgrounds.jpg" class="d-block w-100" alt="..." width="1920px" height="1080">
+            </div>
+            <div class="carousel-item">
+            <img src="../img/NASA_Space_images/wallpaperbetter.jpg" class="d-block w-100" alt="..." width="1920px" height="1080">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div id="sign_Up_Title">
+        <h1 style="display: flex;justify-self: center; color: #91C8E4;" class="raleway-Font">Đăng kí<i class="fa-solid fa-shuttle-space fa-rotate-by" style="--fa-rotate-angle: 270deg;margin-left: 10px;"></i></h1>
+    </div>
+    <div id="sign_Up_Form" style="position: relative;bottom: 1000px;">
+        <form action="" class="needs-validation" novalidate>
+            <div id="textName_Container" class="container ">
+                <label for="textName" class="form-label "  >Họ và Tên:</label>
+                <div class="mb-3 row gap-1  " style="position: relative;left: 10px;">
+                    <input type="text" class="form-control col validating_Response respond1" id="textUserName_Surname" placeholder="Nhập tên họ của bạn" aria-describedby="invalid-feedback">
+                    
+                    <input type="text" class="form-control col validating_Response respond2" id="textUserName_Given_Name" placeholder="Nhập tên lót của bạn" aria-describedby="invalid-feedback">
+                    <div class="invalid-feedback text-center feedback-1" style="margin-bottom: 0px;">
+                        Vui lòng điền thông tin họ tên
+                    </div>
+                    <div class="invalid-feedback text-center feedback-1A" style="margin-bottom: 0px;">
+                        Vui lòng nhập họ tên theo đúng quy định 
+                    </div>
+                </div>
+            </div>
+            
+            <div id="email_Text_Container">
+                    <label for="textEmailAddress" class="form-label" style="margin-top: 0px;margin-bottom: 0px;position: relative;left: 10px;bottom: 19px;">Email:</label>
+                <div class="input-group mb-3  container " >
+                    <span class="input-group-text">@Email</span>
+                    <input type="email" class="form-control validating_Response respond3" placeholder="Nhập Email của bạn" id="textEmailAddress" aria-label="" aria-describedby="basic-addon1 invalid-feedback" >
+                    <div class="invalid-feedback text-center feedback-2" style="margin-bottom: 0px;">
+                        Vui lòng điền địa chỉ Email
+                    </div>
+                    <div class="invalid-feedback text-center feedback-2A" style="margin-bottom: 0px;">
+
+                    </div>
+                </div>     
+            </div>
+            <div id="textPassWord_Container"  >
+                <label for="textPassWord" class="form-label" id="textPassWord_Label" style="margin-top: 0px;margin-bottom: 0px;">Mật khẩu:</label>
+                <div class="mb-3 input-group container ">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="password" id="textPassWord" placeholder="Nhập mật khẩu của bạn" class="form-control validating_Response respond4" aria-describedby="basic-addon1 invalid-feedback">
+                    <div class="invalid-feedback text-center feedback-3" style="margin-bottom: 0px;">
+                            Vui lòng điền thông tin mật khẩu
+                    </div>
+                    <div class="invalid-feedback text-center feedback-3A" style="margin-bottom: 0px;">
+                            
+                    </div>
+                    <!-- <div class="wasValidated_Response6" >45style="width: 450px;"101010101010style=5""5555550
+                    </div> -->
+                </div>
+            </div>
+            <div class="mb-3  container">
+                <label for="textBirthdate" class="form-label " style="margin-top: 0px;margin-bottom: 0px;">Ngày sinh:</label>
+                <input type="date" id="textBirthdate" placeholder="Nhập năm sinh của bạn" class="form-control validating_Response respond5" aria-describedby="invalid-feedback">
+                <div class="invalid-feedback text-center feedback-4">
+                        Vui lòng điền thông tin ngày sinh
+                    </div>
+                <div class="invalid-feedback text-center feedback-4A"></div>
+            </div>
+            <div class="mb-3  container">
+                <label for="chooseGender" class="form-label " style="margin-top: 0px;margin-bottom: 0px;">Giới tính của bạn:</label>
+                <select class="form-select validating_Response respond6" aria-label="Default select example" id="selectGender" aria-describedby="invalid-feedback">
+                        <option selected>...</option>
+                        <option value="Nam">Nam</option>
+                        <option value="Nữ">Nữ</option>
+                        <option value="Chưa muốn nói lúc này">Chưa muốn nói lúc này</option>
+                    </select>
+                <div class="invalid-feedback text-center feedback-5" style="margin-bottom: 0px;">
+                        Vui lòng chọn giới tính của bạn
+                    </div>
+                <div class="invalid-feedback text-center feedback-5A" style="margin-bottom: 0px;"></div>
+            <div class="form-check" style="margin-top: 10px;">
+                <input class="form-check-input" type="checkbox" value="rememberMe" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Nhớ tôi
+                </label>
+            </div>
+            <div class=" bg-info bg-opacity-10 border border-info border-start-0 rounded-end" style="margin-top: 10px; height: 30px;">
+                <p style="justify-self: center;">Đã có tài khoản?<a href="login.html" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Đăng nhập</a></p>
+            </div>
+            </div>
+            <button type="button" class="btn btn-outline-info" id="sign_Up_Button">Đăng kí<i class="fa-solid fa-satellite-dish" style="color: #5755fe;"></i></button>
+            
+            <!-- <label for=""></label>
+            <input type="text" id="" placeholder="">basic-addon1UsernameUsername123OneTwoThreeInfowinput-group-sminput-group-sminput-group-sminput-group-sminput-group-smchooseChọn giới tính của bạn1010
+            <input type="email"  placeholder="">
+            <select name="Giới tính" id="chooseGender" class="form-control">submitđiềnthông tin 
+                    <option value=""></option>
+                    <option value=""></option>
+                </select> 
+            <button type="submit"></button>--><!-- <div class="wasValidated_Response" >
+
+                    </div> -->
+            <!-- <div class="wasValidated_Response" >0start-100absolutetranslate-middle
+                        
+                    </div> -->
+                    <!-- <div class="valid-feedback">was-validatedinvalidvào ô này50relative
+                        Looks good!id
+                    </div> --><!-- <div class="wasValidated_Response" >0hông tin đt
+                        
+                        </div> -->
+            
+        </form>
+        
+    </div>
+</body>
+</html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="../js/sign_Up.js"></script>
