@@ -1,0 +1,53 @@
+body{
+    overflow-y: hidden;
+}
+form{
+    display: grid;
+    gap: 10px;
+    padding: 30px
+}
+#sign_Up_Form{
+    /* position: relative;
+    bottom: 10000px;1964
+    position: relative2;230;24.500pxhiddenautoscrollautovisible
+     */
+    
+    justify-self: center;
+    /* background:#0E2954 ; 1080*/
+    /* width: 400px;
+    height: 570px; */
+    border: 4px solid #9EC6F3;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    width: auto;
+    max-height: 720px;
+}
+.raleway-Font{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    }
+    #sign_Up_Title{
+        padding: 10px;
+        position: relative;
+        bottom: 1070px;
+        border: 1px #ADDDD0 solid;
+        border-radius: 10px;
+        margin-bottom: 22px;
+    }
+label{
+        
+        width: 125px;
+        color: #EEEEEE;
+        text-decoration-line: underline overline;
+        /* border: 2px #433878 solid; */
+        border-radius: 10px
+    }
+#textPassWord_Label{
+        position: relative;
+        bottom: 20px;
+        left: 10px;
+    }
+/* <uniquifier> ffF <weight>SContainer22*10/auto1002margin-top: -20px;
+/* */

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự báo thời tiết</title>
+    <link rel="stylesheet" href="../style/weather_Forecast_Style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary-subtle " >
+  <div class="container-fluid bg-">
+    
+    <span class="navbar-brand mb-0 h1 ">Uniexplo</span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="landing_Page.html">Trang chủ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dự báo thời tiết</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="space_Picture_Library.html">Kho dữ liệu ảnh không gian vũ trụ</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mở rộng
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="login.html">Đăng nhập</a></li>
+            <li><a class="dropdown-item" href="sign_Up.html">Đăng ký</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="imageContainer" class="container-fluid" style="justify-self: center;" >
+    <img src="../img/himalayasnow-oli2-20220128-lrg.jpg" class="img-thumbnail opacity-25 " alt="..." >
+  </div> 
+<div>
+    <div id="weather_Forecast_Title" class="container-fluid">
+        <h1 class="display-1 text-center border rounded border-primary bg-info-subtle">Dự báo thời tiết</h1>
+        <p class="text-center text-decoration-underline border-start border-end border-success p-2 bg-success-subtle text-success-emphasis">Chào mừng bạn đến với trang dự báo thời tiết!. Tại đây, bạn có thể cập nhật thêm thông tin về thời tiết của các quốc gia hôm nay và dự kiến cũng như các chủ đề liên quan!</p>
+    </div>
+    <div id="searchBarContainer" class="container-fluid">
+      <form class="d-flex position-relative" role="search">
+        <input class="form-control " type="search" placeholder="Nhập thành phố mà bạn muốn quan sát thời tiết!" id="searchBar" aria-label="Search"/>
+        <button class="btn btn-outline-success p-2" type="button" style="width: 100px;" id="btnSearch">Tìm kiếm</button>
+      </form>
+    </div>
+    <div id="weather_Forecast_Response" class="container border rounded">
+          <h1>Weather forecast</h1>
+      <table class="table d-none" id="weather_Forecast_Table">
+      <tr>
+        <th>Giờ</th>
+        <th>Điều kiện thời tiết</th>
+        <th>Nhiệt độ </th>
+        <th>Độ ẩm</th>
+        <th>Chỉ số UV</th>
+    </tr>          
+        <!-- <div id="weather_Forecast_Response_City_Information" class="container bg-info-subtleclass="container border rounded"">
+        </div> -->
+        <!-- NavbarBran<a class="navbar-brand" href="#"tertiarybg-primary-body-border-bordeme-2r...-<div></div>nCenter aligned <p class=""roundedoasrou>Cétext on all viewport sizes.>100% wide until large sẻSPCK JSA09Weather (1)/page/weather_Forecast.htmlbreakpoint</a><rounderborder-info/p> -->
+    </div>
+</div>
+</body>
+</html>
+<script src="../js/weather_Forecast.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
